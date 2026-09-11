@@ -12,24 +12,68 @@ The draft treats regions as RF propagation and community domains, not political 
 ## Current draft hierarchy
 
 ```text
-midwest
-├── mi
-│   ├── mi-west
-│   │   ├── grr
-│   │   ├── mkg (example)
-│   │   └── azo
-│   ├── mi-central
-│   │   ├── thumb
-│   │   └── midstate
-│   ├── mi-east
-│   │   └── det (example)
-│   ├── mi-north
-│   │   └── tvc (example)
-│   └── mi-upper
-│       └── mqt (example)
-├── il (example)
-├── wi (example)
-└── in (example)
+us                           # United States
+|
+└── midwest                  # USA Midwest
+    |
+    ├── il                   # Illinois
+    |
+    ├── in                   # Indiana
+    |
+    └── mi                   # Michigan
+    |   |
+    │   ├── mi-c             # Central Michigan
+    │   │   ├── mbs          # Midland / Bay City / Saginaw
+    │   │   ├── jxn          # Jackson
+    │   │   ├── fnt          # Flint
+    │   │   ├── hls          # Hilldale
+    │   │   ├── lns          # Lansing
+    │   │   ├── mpl          # Mount Pleasant
+    │   │   ├── tmb          # Thumb Area
+    │   │   ├── tws          # Tawas
+    │   │   └── wbr          # West Branch
+    │   │
+    |   ├── mi-w             # West Michigan
+    │   │   ├── azo          # Kalamazoo
+    │   │   ├── bcr          # Battle Creek
+    │   │   ├── bnh          # Benton Harbor
+    │   │   ├── grr          # Grand Rapids
+    │   │   ├── hol          # Holland / Zeeland
+    │   │   └── mkg          # Muskegon
+    │   │
+    │   ├── mi-e             # Eastern Michigan
+    │   │   ├── adr          # Adrian
+    │   │   ├── ann          # Ann Arbor 
+    │   │   ├── bdf          # Bedford Township
+    │   │   ├── blu          # Port Huron / Marysville
+    │   │   ├── bri          # Brighton / Howell
+    │   │   ├── det          # Metro Detroit
+    │   │   └── lap          # Lapeer
+    │   │
+    │   ├── mi-n             # Northern Michigan
+    │   │   ├── alp          # Alpena / Rogers City
+    │   │   ├── bgr          # Big Rapids
+    │   │   ├── cad          # Cadillac
+    │   │   ├── gld          # Gaylord / Charlevoix / Petosky
+    │   │   ├── gry          # Grayling / Kalkaska
+    │   │   ├── hlk          # Houghton Lake
+    │   │   ├── mac          # Mackinaw City / Cheboygan
+    │   │   ├── man          # Manistee / Ludington / Frankfort
+    │   │   ├── trv          # Traverse City
+    │   │   └── mio          # Mio
+    │   │
+    │   └── mi-upper         # Upper Peninsula
+    |       ├── mrq          # Marquette / Munising / Ishpeming
+    |       ├── esc          # Escanaba / Gladstone
+    |       ├── irm          # iron Mountain
+    |       ├── irw          # ironwood
+    |       ├── msq          # Manistique
+    |       ├── nby          # Newberry
+    |       ├── soo          # Sault St Marie
+    |       ├── sti          # St Ignace
+    |       └── kwn          # Ontanogan / Houghton / L'Anse
+    │
+    └── wi                   # Wisconsin
 ```
 
 The city and neighboring-state examples illustrate how the model can scale; they do not establish hard boundaries or govern another community's regional structure.
